@@ -1,0 +1,345 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+.navbar {
+	padding: 5px;
+}
+
+.navbar #header {
+	font-size: 16px;
+	text-align: right;
+	font-family: "微软雅黑";
+}
+
+.navbar #header span {
+	color: #737373;
+	padding-left: 20px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+.navbar #header span:first-child {
+	background-image: url(../img/xx.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.navbar #header span:nth-of-type(2) {
+	background-image: url(../img/jia.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.navbar #header span:last-child {
+	color: red;
+	font-size: 20px;
+}
+
+.navbar .navbar-header span img {
+	width: 20px;
+	position: relative;
+	top: -20px;
+	left: -55px;
+}
+.navbar .navbar-header a img{
+	float: left;
+}
+.navbar .navbar-header span{
+	position: relative;
+	top: 20px;
+	display: inline-block;
+	width: 130px;
+	text-align: center;
+	color: black;
+	font-family: "楷体";
+	font-weight: bold;
+	font-size: 30px;
+}
+.navbar .navbar-header span small{
+	font-weight: normal;
+	font-size: 16px;
+}
+ #navbar .nav{
+ 	position: relative;
+ 	top: -20px;
+	display: inline-block;
+	float: right;
+}
+#navbar .nav .black{
+	color: black;
+	font-size: 18px;
+	font-family: "微软雅黑";
+}
+@media (max-width:1200px){
+	#navbar .nav .black{
+		font-size: 14px;
+		position: relative;
+		left: 60px;
+	}
+}
+@media (max-width:1000px){
+	#navbar .nav{
+		display: none;
+	}
+	.navbar #header{
+		display: none;
+	}
+}
+@media (max-width:767px){
+	.navbar .navbar-brand img{
+		width: 30%;
+	}	
+	.navbar #header{
+		display: none;
+	}
+	#navbar .nav{
+		display: block;
+	}
+    #navbar .nav .black{
+		position: relative;
+		left: 0px;
+	}
+	
+}
+.service,.case{
+	margin-top: 30px;
+	text-align: center;
+	font-weight: bold;
+}
+.service h3,.case h3{
+	font-size: 25px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	margin: 0;
+}
+.service .enter,.case .enter{
+	margin-bottom: 20px;
+	font-size: 30px;
+	color: #737373;
+}
+.service section{
+    height: 400px;
+	border-radius: 10px;
+	padding: 15px;
+}
+.service div:nth-of-type(1) section{
+	background-color: rgb(253,224,125);
+}
+.service div:nth-of-type(2) section{
+	background-color: rgb(114,146,250);
+}
+.service div:nth-of-type(3) section{
+	background-color: rgb(251,169,108);
+}
+.service section p:nth-of-type(1){
+	font-size: 18px;
+}
+.service section p:nth-of-type(2){
+	margin-top: 20px;
+	padding-top: 20px;
+	font-size: 16px;
+	font-family: "楷体";
+	font-weight: normal;
+	border-top: 1px dotted #737373;
+	text-align: left;
+}
+.case section{
+	box-shadow: 0 0 3px #333;
+	padding: 15px 0 40px 0;
+}
+.case section img{
+    width: 80%;
+}
+.case section p:nth-of-type(1){
+	font-weight: bold;
+	color: rgb(100,185,250);
+	font-size: 18px;
+	border-bottom: 1px dotted #737373;
+	text-align: left;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+.case section p:nth-of-type(2){
+	margin-top: 20px;
+	padding-top: 20px;
+	font-size: 16px;
+	font-family: "楷体";
+	font-weight: normal;
+	text-align: left;
+}
+.case section a{
+	float: right;
+	color: rgb(100,185,250);
+}
+.news header{
+	margin: 30px 0 20px 0;
+	font-size: 20px;
+}
+.news header h3{
+	margin: 0;
+	font-size: 20px;
+	font-weight: bold;
+	display: inline-block;
+	margin-right: 10px;
+} 
+.news header span{
+	font-family: "arial rounded mt bold";
+	color: red;
+}
+.news header a{
+	text-decoration: none;
+	padding-right: 30px;
+	font-size: 16px;
+	color: black;
+	float: right;
+	background-image: url(../img/js.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+.new-left img{
+	float: left;
+	width: 60%;
+	margin-right: 20px;
+}
+#left #h3{
+	font-size: 16px;
+	font-weight: bold;
+}
+.new-left>div:nth-of-type(1){
+	border-bottom: 1px solid #333;
+	padding-bottom: 20px;
+}
+.new-left>div:nth-of-type(2) ul{
+	margin-top: 20px;
+	padding: 0;
+}
+.new-left>div:nth-of-type(2) ul li{
+	list-style: none;
+	margin: 10px;
+	margin-left: 0;
+	padding-left: 20px;
+	background-image: url(../img/ar.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.new-left>div:nth-of-type(2) ul li a{
+	color: black;
+}
+.new-right table td{
+	font-size: 14px;
+	width: 120px;
+	text-align: left;
+	padding: 7px 10px;
+}
+.new-right table .center{
+	text-align: center;
+}
+.new-right table tr td:nth-of-type(5){
+	text-align: right;
+}
+.new-right table tr:nth-of-type(2n-1){
+	background-color: rgb(240,240,240);
+}
+.new-right table tr:nth-of-type(2n){
+	background-color: rgb(250,250,250);
+}
+.customer #cus{
+	margin: 20px 10px;
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+}
+.customer span{
+	font-family: "arial rounded mt bold";
+	color: red;
+	font-size: 20px;
+}
+.customer>div{
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+}
+.customer>div section{
+	flex-basis: 20%;
+	padding: 0 10px;
+	height: 100px;
+}
+.customer>div section div{
+	height: 100%;
+	box-shadow: 0 0 3px #333;
+}
+.customer>div section div img{
+	width: 100%;
+	height: 100%;
+}
+.customer>div section p{
+	text-align: center;
+	margin-top: 10px;
+}
+.customer>div:nth-of-type(2){
+	margin: 70px 0;
+}
+.customer a{
+	float: right;
+	display: block;
+	width: 100px;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	border-radius: 5px;
+	background-color: rgb(100,185,250);
+}
+.link{
+	margin-top: 20px;
+	font-size: 16px;
+}
+.link span{
+	float: left;
+	padding-left: 35px;
+	color: red;
+	font-weight: bold;
+	background-image: url(../img/footer.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.link ul{
+	list-style: none;
+	float: left;
+}
+.link ul li{
+	float: left;
+	padding: 0 20px;
+	border-right: 1px solid black;
+}
+.link ul li:last-child{
+	border-right: none;
+}
+footer{
+	background-color: rgb(0,44,90);
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+}
+footer ul{
+	list-style: none;
+	float: left;
+}
+footer ul li{
+	float: left;
+	padding: 0 25px;
+}
+footer ul li a{
+	color: white;
+	font-size: 16px;
+}
+
+@media (max-width:768px){
+	footer,.link,.customer a{
+		display: none;
+	}
+}
